@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+      "Id": "D:\\PROGRAMAÇÃO\\Projeto .NET\\SalesWeb\\SalesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-lux.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-lux.css"
+    },
+    {
       "Id": "D:\\PROGRAMAÇÃO\\Projeto .NET\\SalesWeb\\SalesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },

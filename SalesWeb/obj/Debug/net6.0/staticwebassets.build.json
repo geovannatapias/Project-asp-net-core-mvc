@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7GrgoksLvQBslPifvq+p+UJcCjspEsm90FbPlH4FN8U=",
+  "Hash": "q72oWmuscdOiXZKytkV7RZF4RqSVKaEKg+v6p1EhlMA=",
   "Source": "SalesWeb",
   "BasePath": "_content/SalesWeb",
   "Mode": "Default",
@@ -372,6 +372,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Identity": "D:\\PROGRAMAÇÃO\\Projeto .NET\\SalesWeb\\SalesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-lux.css",
+      "SourceId": "SalesWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PROGRAMAÇÃO\\Projeto .NET\\SalesWeb\\SalesWeb\\wwwroot\\",
+      "BasePath": "_content/SalesWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-lux.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-lux.css"
     },
     {
       "Identity": "D:\\PROGRAMAÇÃO\\Projeto .NET\\SalesWeb\\SalesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
