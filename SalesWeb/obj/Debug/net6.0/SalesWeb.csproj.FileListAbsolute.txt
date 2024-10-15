@@ -247,3 +247,5 @@ D:\PROGRAMAÇÃO\Projeto .NET\SalesWeb\SalesWeb\bin\Debug\net6.0\runtimes\win\li
 D:\PROGRAMAÇÃO\Projeto .NET\SalesWeb\SalesWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\PROGRAMAÇÃO\Projeto .NET\SalesWeb\SalesWeb\obj\Debug\net6.0\SalesWeb.csproj.AssemblyReference.cache
 D:\PROGRAMAÇÃO\Projeto .NET\SalesWeb\SalesWeb\obj\Debug\net6.0\SalesWeb.csproj.CopyComplete
+D:\PROGRAMAÇÃO\Projeto .NET\SalesWeb\SalesWeb\bin\Debug\net6.0\MySqlConnector.dll
+D:\PROGRAMAÇÃO\Projeto .NET\SalesWeb\SalesWeb\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
