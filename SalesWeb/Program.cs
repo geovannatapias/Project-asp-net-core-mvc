@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using SalesWeb.Data;
+using SalesWeb.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,8 +10,12 @@ builder.Services.AddDbContext<SalesWebContext>(options =>
    new MySqlServerVersion(new Version(8, 0, 38)), // Ajuste para sua versão do MySQL
     mysqlOptions => mysqlOptions.MigrationsAssembly("SalesWeb")));
 
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddTransient<SeedingService>(); // registrar injeção de dependencia 
+builder.Services.AddTransient <SellerService>(); //serviço pode ser injetado em outras classes
 
 var app = builder.Build();
 
@@ -20,6 +25,15 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
+}
+else
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var seeder = scope.ServiceProvider.GetRequiredService<SeedingService>();
+        
+        seeder.Seed(); 
+    }
 }
 
 app.UseHttpsRedirection();
