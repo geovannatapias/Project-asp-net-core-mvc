@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROGRAMAÇÃO\\Projeto .NET\\SalesWeb\\SalesWeb\\SalesWeb.csproj": {}
+    "D:\\PROGRAMAÇÃO\\Nova pasta\\SalesWeb\\SalesWeb.csproj": {}
   },
   "projects": {
-    "D:\\PROGRAMAÇÃO\\Projeto .NET\\SalesWeb\\SalesWeb\\SalesWeb.csproj": {
+    "D:\\PROGRAMAÇÃO\\Nova pasta\\SalesWeb\\SalesWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROGRAMAÇÃO\\Projeto .NET\\SalesWeb\\SalesWeb\\SalesWeb.csproj",
+        "projectUniqueName": "D:\\PROGRAMAÇÃO\\Nova pasta\\SalesWeb\\SalesWeb.csproj",
         "projectName": "SalesWeb",
-        "projectPath": "D:\\PROGRAMAÇÃO\\Projeto .NET\\SalesWeb\\SalesWeb\\SalesWeb.csproj",
+        "projectPath": "D:\\PROGRAMAÇÃO\\Nova pasta\\SalesWeb\\SalesWeb.csproj",
         "packagesPath": "C:\\Users\\geova\\.nuget\\packages\\",
-        "outputPath": "D:\\PROGRAMAÇÃO\\Projeto .NET\\SalesWeb\\SalesWeb\\obj\\",
+        "outputPath": "D:\\PROGRAMAÇÃO\\Nova pasta\\SalesWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7APx7lMjgEHHjr07fkbQn7b1sBH8CuJ3h3TKQMLWAxV8m4c+V+WYxvFpTFa0hppgZPcJZOBDo5f7seDWUkbHjw==",
+  "dgSpecHash": "CZI4YbVhMeSntb2U97xqNv237lnsRB6HNIH8a3M3nXPHIBsnag4B1JSEHhD2tGvRSwixariRYgotfmdeOP9m0A==",
   "success": true,
-  "projectFilePath": "D:\\PROGRAMAÇÃO\\Projeto .NET\\SalesWeb\\SalesWeb\\SalesWeb.csproj",
+  "projectFilePath": "D:\\PROGRAMAÇÃO\\Nova pasta\\SalesWeb\\SalesWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\geova\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\geova\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

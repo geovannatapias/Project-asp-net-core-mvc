@@ -9,57 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SalesWeb
 build_property.RootNamespace = SalesWeb
-build_property.ProjectDir = D:\PROGRAMAÇÃO\Projeto .NET\SalesWeb\SalesWeb\
+build_property.ProjectDir = D:\PROGRAMAÇÃO\Nova pasta\SalesWeb\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\PROGRAMAÇÃO\Projeto .NET\SalesWeb\SalesWeb
+build_property.MSBuildProjectDirectory = D:\PROGRAMAÇÃO\Nova pasta\SalesWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/PROGRAMAÇÃO/Projeto .NET/SalesWeb/SalesWeb/Views/Departments/Create.cshtml]
+[D:/PROGRAMAÇÃO/Nova pasta/SalesWeb/Views/Departments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAÇÃO/Projeto .NET/SalesWeb/SalesWeb/Views/Departments/Delete.cshtml]
+[D:/PROGRAMAÇÃO/Nova pasta/SalesWeb/Views/Departments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAÇÃO/Projeto .NET/SalesWeb/SalesWeb/Views/Departments/Details.cshtml]
+[D:/PROGRAMAÇÃO/Nova pasta/SalesWeb/Views/Departments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAÇÃO/Projeto .NET/SalesWeb/SalesWeb/Views/Departments/Edit.cshtml]
+[D:/PROGRAMAÇÃO/Nova pasta/SalesWeb/Views/Departments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAÇÃO/Projeto .NET/SalesWeb/SalesWeb/Views/Departments/Index.cshtml]
+[D:/PROGRAMAÇÃO/Nova pasta/SalesWeb/Views/Departments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAÇÃO/Projeto .NET/SalesWeb/SalesWeb/Views/Home/Index.cshtml]
+[D:/PROGRAMAÇÃO/Nova pasta/SalesWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAÇÃO/Projeto .NET/SalesWeb/SalesWeb/Views/Home/Privacy.cshtml]
+[D:/PROGRAMAÇÃO/Nova pasta/SalesWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAÇÃO/Projeto .NET/SalesWeb/SalesWeb/Views/Shared/Error.cshtml]
+[D:/PROGRAMAÇÃO/Nova pasta/SalesWeb/Views/Sellers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMAÇÃO/Nova pasta/SalesWeb/Views/Sellers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMAÇÃO/Nova pasta/SalesWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAÇÃO/Projeto .NET/SalesWeb/SalesWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/PROGRAMAÇÃO/Nova pasta/SalesWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAÇÃO/Projeto .NET/SalesWeb/SalesWeb/Views/_ViewImports.cshtml]
+[D:/PROGRAMAÇÃO/Nova pasta/SalesWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAÇÃO/Projeto .NET/SalesWeb/SalesWeb/Views/_ViewStart.cshtml]
+[D:/PROGRAMAÇÃO/Nova pasta/SalesWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROGRAMAÇÃO/Projeto .NET/SalesWeb/SalesWeb/Views/Shared/_Layout.cshtml]
+[D:/PROGRAMAÇÃO/Nova pasta/SalesWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ahx7rlh5en
