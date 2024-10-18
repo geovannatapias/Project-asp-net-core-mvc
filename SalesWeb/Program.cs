@@ -16,7 +16,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddTransient<SeedingService>(); // registrar injeção de dependencia 
 builder.Services.AddTransient <SellerService>(); //serviço pode ser injetado em outras classes
-
+builder.Services.AddScoped<DepartmentService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
