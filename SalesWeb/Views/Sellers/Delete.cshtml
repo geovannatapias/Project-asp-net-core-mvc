@@ -11,7 +11,7 @@
     <h4>Seller</h4>
     <hr />
     <dl class="d1-horizontal">
-        <dt> 
+        <dt>
             @Html.DisplayNameFor(model =>model.Name)
         </dt>
         <dd>
@@ -35,10 +35,10 @@
         <dd>
             @Html.DisplayFor(model =>model.BaseSalary)
         </dd>
-</dl>
-<form asp-action="Delete">
-    <input type ="submit" value="Delete" class="btn-danger"
-    <input type="hidden" value="Delete" class="btn btn-danger" />
-    <a asp-action="Index">Back to List</a>
-</form>
+    </dl>
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn-danger"
+        <input type="hidden" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index">Back to List</a>
+    </form>
 </div>
