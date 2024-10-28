@@ -2,6 +2,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using SalesWeb.Data;
 using SalesWeb.Services;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +22,16 @@ builder.Services.AddScoped<DepartmentService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+var enUS = new CultureInfo("en-US");
+var localizationOptions = new RequestLocalizationOptions
+{
+    DefaultRequestCulture = new RequestCulture("en-US"),
+    SupportedCultures = new List<CultureInfo> { enUS },
+    SupportedUICultures = new List<CultureInfo> { enUS }
+};
+
+app.UseRequestLocalization(localizationOptions); 
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
