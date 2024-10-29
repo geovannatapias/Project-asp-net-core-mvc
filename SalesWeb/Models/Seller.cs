@@ -1,7 +1,9 @@
-﻿using SalesWeb.Models;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using SalesWeb.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
 
@@ -12,7 +14,7 @@ namespace SalesWeb.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "{0} required")] //campo obrigatório
+        [Required(ErrorMessage = "{0} required")] 
         [StringLength(60, MinimumLength = 3, ErrorMessage = "{0} size should be between {2} and {1}")]
         public string Name { get; set; }
         
@@ -32,8 +34,13 @@ namespace SalesWeb.Models
         [Display(Name = "Base Salary")]
         [DisplayFormat(DataFormatString = "{0:F2}")]
         public double BaseSalary { get; set; }
-       
-        public Department Department { get; set; } 
+
+        [ValidateNever]
+        public Department Department { get; set; }
+
+        [Required(ErrorMessage = "{0} required")]
+        [NotNull]
+        [Display(Name = "Department")]
         public int DepartmentId { get; set; }
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>(); //associando sales record com seller
 

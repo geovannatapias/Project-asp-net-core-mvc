@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Controllers",
+    "\\Services",
+    "\\Views\\Sellers"
   ],
-  "SelectedNode": "\\bin",
+  "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
