@@ -30,15 +30,24 @@ namespace SalesWeb.Services
         }
         public async Task RemoveAsync(int id)
         {
+            var obj = await _context.Seller.FindAsync(id);
+            if (obj == null)
+            {
+                throw new IntegrityException("Seller not found.");
+            }
+
             try
             {
-                var obj = await _context.Seller.FindAsync(id);
                 _context.Seller.Remove(obj);
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException e)
             {
-                throw new IntegrityException(e.Message);
+                throw new IntegrityException("Concurrency error: " + e.Message);
+            }
+            catch (DbUpdateException e)
+            {
+                throw new IntegrityException("Integrity error: " + e.Message);
             }
         }
         public async Task UpdateAsync(Seller obj)
